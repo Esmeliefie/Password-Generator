@@ -93,13 +93,10 @@ hr {
  
 @media screen and (max-width: 480px) {
     #password-options {
-        display:flex;
-        flex-direction:column;
-        justify-content:space-between;
-        align-items:center;
-        margin-bottom: 40px;
-        padding-bottom: 20px;
-        max: width 1px;0px;
+        display:block;
+        margin:20px auto;
+        max-height: 600px;
+        max-width:400px;
     }
 
 }
